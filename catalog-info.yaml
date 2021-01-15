@@ -5,7 +5,6 @@ metadata:
   name: test2
   annotations:
     github.com/project-slug: alokmaurya1/test2
-  annotations:
     backstage.io/techdocs-ref: alokmaurya1/test2  
 spec:
   type: other
