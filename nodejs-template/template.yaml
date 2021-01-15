@@ -1,26 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
-  # unique name per namespace for the template
-  name: nodejs-template
-  # title of the template
-  title: Nodejs Template
-  # a description of the template
-  description:
-    Next.js application skeleton for creating isomorphic web applications.
-  # some tags to display in the frontend
+  name: nodejs-emplate
+  title: Create Nodejs Template
+  description: Create a new nodejs website project
   tags:
-    - recommended
+    - experimental
     - react
+    - cra
 spec:
-  # which templater key to use in the templaters builder
-  templater: cookiecutter
-  # what does this template create
+  owner: web@example.com
+  templater: cra
   type: website
-  # if the template is not in the current directory where this definition is kept then specify
-  path: './template'
-  # the schema for the form which is displayed in the frontend.
-  # should follow JSON schema for forms: https://jsonforms.io/
+  path: '.'
+
   schema:
     required:
       - component_id
@@ -29,8 +22,19 @@ spec:
       component_id:
         title: Name
         type: string
-        description: Unique name of the component
+        pattern: ^[a-z0-9]+(-[a-z0-9]+)*$
+        description: Unique name of the component. Lowercase, URL-safe characters only.
       description:
         title: Description
         type: string
-        description: Description of the component
+        description: Help others understand what this website is for.
+      use_typescript:
+        title:  Use TypeScript
+        type: boolean
+        description: Include TypeScript
+        default: true
+      use_github_actions:
+        title:  Use Github Actions workflows to build this component
+        type: boolean
+        description: Use Github Actions
+        default: true
