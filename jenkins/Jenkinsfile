@@ -1,0 +1,18 @@
+pipeline
+{
+    agent {
+        label 'master'
+    }
+    stages
+    {
+       stage('hola')
+        {
+            steps
+            {
+                sh '''
+                echo "hola jenkins"
+                '''
+            }
+        }
+     }
+}     
