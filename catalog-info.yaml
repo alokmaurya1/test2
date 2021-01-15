@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: test2
-  description: test2 nodejs app
+  description: test2 nodejs-app
   annotations:
     github.com/project-slug: alokmaurya1/test2
     #backstage.io/techdocs-ref: 'github:https://github.com/alokmaurya1/test2-docs'
