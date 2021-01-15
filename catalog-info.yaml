@@ -6,7 +6,8 @@ metadata:
   annotations:
     github.com/project-slug: alokmaurya1/test2
     backstage.io/techdocs-ref: 'github:https://github.com/alokmaurya1/test2-docs.git'
-    jenkins.io/github-folder: Jenkinsfile
+    github.com/user-login: alokmaurya1
+    #jenkins.io/github-folder: Jenkinsfile
 spec:
   type: other
   lifecycle: development
