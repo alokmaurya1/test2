@@ -5,8 +5,9 @@ metadata:
   name: test2
   annotations:
     github.com/project-slug: alokmaurya1/test2
-    backstage.io/techdocs-ref: alokmaurya1/test2  
+    backstage.io/techdocs-ref: value  
 spec:
   type: other
-  lifecycle: unknown
+  lifecycle: development
   owner: alokmaurya1
+  tags: dev
