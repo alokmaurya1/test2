@@ -8,7 +8,7 @@ metadata:
     github.com/project-slug: alokmaurya1/test2
     #backstage.io/techdocs-ref: 'github:https://github.com/alokmaurya1/test2-docs'
     github.com/user-login: alokmaurya1
-    jenkins.io/github-folder: jenkins/test2
+    #jenkins.io/github-folder: jenkins/test2
 spec:
   type: other
   lifecycle: development
