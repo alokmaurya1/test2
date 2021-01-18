@@ -6,7 +6,7 @@ metadata:
   description: Create a new nodejs website project
   tags:
     - experimental
-    - react
+    - node
     - cra
 spec:
   owner: web@example.com
