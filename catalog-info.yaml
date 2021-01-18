@@ -13,3 +13,5 @@ spec:
   type: other
   lifecycle: development
   owner: alokmaurya1
+  providesApis:
+    - example-api
