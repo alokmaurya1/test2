@@ -6,6 +6,7 @@ metadata:
   description: test2 nodejs-app
   annotations:
     github.com/project-slug: alokmaurya1/test2
+    backstage.io/github-actions-id: alokmaurya1/test2
     #jenkins.io/github-folder: jenkins/test2
     #backstage.io/techdocs-ref: 'github:https://github.com/alokmaurya1/test2-docs'
 spec:
