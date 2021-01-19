@@ -10,6 +10,6 @@ metadata:
     #jenkins.io/github-folder: jenkins/test2
     #backstage.io/techdocs-ref: 'github:https://github.com/alokmaurya1/test2-docs'
 spec:
-  type: other
+  type: service
   lifecycle: development
   owner: alokmaurya1
