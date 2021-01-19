@@ -6,12 +6,9 @@ metadata:
   description: test2 nodejs-app
   annotations:
     github.com/project-slug: alokmaurya1/test2
-    #backstage.io/techdocs-ref: 'github:https://github.com/alokmaurya1/test2-docs'
-    github.com/user-login: alokmaurya1
     #jenkins.io/github-folder: jenkins/test2
+    #backstage.io/techdocs-ref: 'github:https://github.com/alokmaurya1/test2-docs'
 spec:
   type: other
   lifecycle: development
   owner: alokmaurya1
-  providesApis:
-    - example-api
